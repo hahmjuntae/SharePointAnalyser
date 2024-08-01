@@ -5,10 +5,10 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 3. 패키지 설치
-pip install pandas openpyxl
+pip3 install pandas openpyxl
 
 # 4. 애플리케이션 실행
-python audit_log_analyser.py
+python3 audit_log_analyser.py
 
 # 가상 환경 비활성화
 deactivate
